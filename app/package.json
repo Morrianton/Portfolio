@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "description": "Secure portfolio app featuring some of my projects and résumé.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Morrianton/Portfolio.git"
+  },
+  "author": "Bryson L. Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Morrianton/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Morrianton/Portfolio#readme"
+}
